@@ -1,3 +1,6 @@
+body{
+    font-family: 'Times New Roman', Times, serif ;
+}
 #b{
     transform: scale(1);
     animation: animacja 3s infinite;
@@ -10,7 +13,7 @@
     transition: 10s
 }
 #a{
-    color:rgb(216, 146, 232);
+    color:rgb(146, 190, 232);
     font-size: 30px;
     height: 90px;
     }
@@ -32,4 +35,8 @@
     0%{transform: scale(1);}
     50%{transform: scale(1.5);}
     100%{transform: scale(1);}
+}
+h1{
+    font-size: 40px;
+    color:rgb(46, 155, 174);
 }
