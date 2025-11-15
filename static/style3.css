@@ -42,7 +42,7 @@ body{
 #kod2{
     position: absolute;
     left: 12cm;
-    top: 12.5cm;
+    top: 11.5cm;
     font-family: "Monaco", "Lucida Console", monospace;
     z-index: 1;
     background-color: aliceblue;
@@ -50,7 +50,7 @@ body{
 #tkod2{
     position: absolute;
     left: 12cm;
-    top: 11.75cm;
+    top: 10.75cm;
     z-index: 2;
     background-color: aliceblue;
 }
@@ -104,7 +104,6 @@ body{
     font-family: "Monaco", "Lucida Console", monospace;
     z-index: 1;
     background-color: aliceblue;
-    overflow-y: scroll;
 }
 #tkod4{
     position: absolute;
