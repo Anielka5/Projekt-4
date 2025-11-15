@@ -1,0 +1,44 @@
+#b{
+    transform: scale(1);
+    animation: animacja 3s infinite;
+    position: absolute;
+    top: 12.5cm;
+    left: 3cm;
+}
+#a:hover {
+    color: #7780df;
+    transition: 10s
+}
+#a{
+    color:rgb(216, 146, 232);
+    font-size: 30px;
+    height: 90px;
+    }
+#d{
+    font-size: 30px;
+    animation: aniD 5s infinite;
+    left: 100px;
+    top: 10cm;
+    position: absolute;
+    z-index: 3;
+}
+#e{
+    animation: anie 5s infinitive;
+    position:absolute;
+}
+@keyframes aniD{
+    0%{left: 100px;}
+    50%{left: 300px;}
+    100%{left: 100px;}
+}
+
+@keyframes animacja{
+    0%{transform: scale(1);}
+    50%{transform: scale(1.5);}
+    100%{transform: scale(1);}
+}
+@keyframes anie{
+    0%{left:800px;}
+    50%{left: 1000px;}
+    100%{left: 800px;}
+}

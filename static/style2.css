@@ -1,0 +1,50 @@
+@keyframes aniC{
+    0%{left:100px; top: 800px}
+    2.5%{left:120px; top:805px}
+    5%{left:140px; top:810px}
+    7.5%{left:160px; top:815px}
+    10%{left:180px; top:820px}
+    12.5%{left:200px; top:825px}
+    15%{left:220px; top:830px}
+    17.5%{left:240px; top:835px}
+    20%{left:260px; top:840px}
+    22.5%{left:280px; top:845px;}
+    25%{left:300px; top:850px}
+    27.5%{left:320px; top:855px}
+    30%{left:340px; top:860px}
+    32.5%{left:360px; top:865px}
+    35%{left:380px; top:870px}
+    37.5%{left:400px; top:875px}
+    40%{left:420px; top:880px}
+    42.5%{left:440px; top:885px}
+    45%{left:460px; top:890px}
+    47.5%{left:480px; top:895px}
+    50%{left:500px; top:900px}
+    52.5%{left:480px; top:895px}
+    55%{left:460px; top:890px}
+    57.5%{left:440px; top:885px}
+    60%{left:420px; top:880px}
+    62.5%{left:400px; top:875px}
+    65%{left:380px; top:870px}  
+    67.5%{left:360px; top:865px}
+    70%{left:340px; top:860px}
+    72.5%{left:320px; top:855px}
+    75%{left:300px; top:850px}
+    77.5%{left:280px; top:845px}
+    80%{left:260px; top:840px}
+    82.5%{left:240px; top:835px}
+    85%{left:220px; top:830px}
+    87.5%{left:200px; top:825px}
+    90%{left:180px; top:820px}
+    92.5%{left:160px; top:815px}
+    95%{left:140px; top:810px}
+    97.5%{left:120px; top:805px}
+    100%{left:100px; top:800px}
+}
+#c{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    animation: aniC 10s infinite;
+    transition: 20s;
+}
