@@ -16,29 +16,20 @@
     }
 #d{
     font-size: 30px;
-    animation: aniD 5s infinite;
+    animation: aniD 6s infinite;
     left: 100px;
-    top: 10cm;
+    top: 4cm;
     position: absolute;
     z-index: 3;
 }
-#e{
-    animation: anie 5s infinitive;
-    position:absolute;
-}
 @keyframes aniD{
-    0%{left: 100px;}
-    50%{left: 300px;}
-    100%{left: 100px;}
+    0%{left: 900px;}
+    50%{left: 1200px;}
+    100%{left: 900px;}
 }
 
 @keyframes animacja{
     0%{transform: scale(1);}
     50%{transform: scale(1.5);}
     100%{transform: scale(1);}
-}
-@keyframes anie{
-    0%{left:800px;}
-    50%{left: 1000px;}
-    100%{left: 800px;}
 }
