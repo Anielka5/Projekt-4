@@ -97,10 +97,10 @@ body{
 }
 #kod4{
     position: absolute;
-    left: 20cm;
-    top: 21.5cm;
+    left: 24cm;
+    top: 9.5cm;
     height: 250px;
-    width: 500px;
+    width: 350px;
     font-family: "Monaco", "Lucida Console", monospace;
     z-index: 1;
     background-color: aliceblue;
@@ -108,8 +108,8 @@ body{
 }
 #tkod4{
     position: absolute;
-    left: 20cm;
-    top: 20.75cm;
+    left: 24cm;
+    top: 8.75cm;
     z-index: 2;
     background-color: aliceblue;
 }
@@ -122,4 +122,14 @@ body{
     width: 505px;
     height: 600px;
     z-index: 0;
+}
+#tblank{
+    width: 420px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 4cm;
+    left: 23cm;
+    z-index: 1;
+    color: white;
+    font-size: 40px;
 }

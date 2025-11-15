@@ -30,6 +30,11 @@
     top: 4.76cm;<br>
     left: 1cm;<br>
     }<br>
+    @keyframes animacja{<br>
+    0%{transform: scale(1);}<br>
+    50%{transform: scale(1.5);}<br>
+    100%{transform: scale(1);}<br>
+    }<br>
 </p>
     <p id = "blank1"><br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.</p>
     <p id = "blank3"><br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.</p>
@@ -89,13 +94,19 @@
     <p id="d">Cześć</p>
     <p id = "blank4"><br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.</p>
     <h4 id="tkod4">Kod:</h4>
-    <p id="kod4">#b{<br>
-    transform: scale(1);<br>
-    animation: animacja 3s infinite;<br>
+    <p id="kod4">#d{<br>
+    font-size: 30px;<br>
+    animation: aniD 6s infinite;<br>
+    left: 100px;<br>
+    top: 4cm;<br>
     position: absolute;<br>
-    top: 4.76cm;<br>
-    left: 1cm;<br>
+    z-index: 3;<br>
     }<br>
-    <p id="e">Witaj świecie!</p>
+@keyframes aniD{<br>
+    0%{left: 900px;}<br>
+    50%{left: 1200px;}<br>
+    100%{left: 900px;}<br>
+}<br></p>
+<p id="tblank">.<br>.<br>.</p>
 </body>
 </html>
